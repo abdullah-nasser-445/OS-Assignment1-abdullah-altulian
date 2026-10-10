@@ -31,7 +31,7 @@
 |-------|-------------|
 | **Full Name** | [ABDULLAH NASSER ALTULIAN] |
 | **Student ID** | [445050084] |
-| **University Email** | [445050084]@std.psau.edu.sa |
+| **University Email** | [445050084@std.psau.edu.sa] |
 | **GitHub Username** | [abdullah-nasser-445] |
 | **Repository Link** | [https://github.com/abdullah-nasser-445/OS-Assignment1-abdullah-altulian] |
  
