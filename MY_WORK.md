@@ -29,17 +29,17 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | [ABDULLAH NASSER ALTULIAN] |
+| **Student ID** | [445050084] |
+| **University Email** | [445050084]@std.psau.edu.sa |
+| **GitHub Username** | [abdullah-nasser-445] |
+| **Repository Link** | [https://github.com/abdullah-nasser-445/OS-Assignment1-abdullah-altulian] |
  
 ---
 
 ## 🎥 Video Link
 
-**Video Link**: [Paste your video link here]
+**Video Link**: [https://youtu.be/iUXoOOePOTk?si=FXBr7MTKpVx14E79]
 
 > ⚠️ **WARNING:** The video must be **publicly accessible** ("Anyone with the link can view") on **Google Drive**, **YouTube (Unlisted or Public)** or any other cloud file-sharing system. A private, restricted or broken link counts as a **missing video (-1 mark)**.
 >
@@ -129,68 +129,68 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [09/10/2026, 12:00 AM]
+**What I did**: Read the assignment.
 
-**Details**:
+**Details**: I understood the main requirements of the CPU Scheduler project.
 
-**Challenges**:
+**Challenges**: Understanding the process variables.
 
-**Solution**:
+**Solution**: Reviewed how the time quantum is used.
 
-**Time spent**:
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**: 30 minutes
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 2 - [09/10/2026, 2:00 PM]
+**What I did**: Worked on the Process class.
 
-**Details**:
+**Details**: Added process name, burst time, remaining time, and priority.
 
-**Challenges**:
+**Challenges**: Understanding the process variables.
 
-**Solution**:
+**Solution**: Reviewed the constructor and variables.
 
-**Time spent**:
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**: 1 hour
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 3 - [09/10/2026, 4:00 PM]
+**What I did**: Worked on the ready queue.
 
-**Details**:
+**Details**: Used a FIFO queue to organize the processes.
 
-**Challenges**:
+**Challenges**: Understanding how unfinished processes return to the queue.
 
-**Solution**:
+**Solution**: Added unfinished processes to the end of the queue.
 
-**Time spent**:
+**Time spent**: 1 hour
+
+---
+
+### Entry 4 - [10/10/2026, 11:00 AM]
+**What I did**: Added waiting time calculations.
+
+**Details**: Worked on waiting time, turnaround time, and context switch counting.
+
+**Challenges**: Understanding the calculations.
+
+**Solution**: Reviewed the timing methods and counter.
+
+**Time spent**: 1 hour
+
+---
+
+### Entry 5 - [10/10/2026, 2:00 PM]
+**What I did**: Tested the program.
+
+**Details**: Ran the program and checked the output and final statistics.
+
+**Challenges**: Understanding the final results.
+
+**Solution**: Reviewed the output table and checked the displayed values.
+
+**Time spent**: 30 minutes
 
 ---
 
@@ -237,7 +237,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I learned how to use threads in Java to simulate process execution. I used Runnable to define the process and Thread.start() to start its execution. I learned that Thread.join() makes the main thread wait until the current thread finishes. I also used Thread.sleep() to simulate the time a process needs to run. The most interesting thing was learning how threads can be managed by a scheduler. This assignment helped me understand multithreading better.]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +245,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[The most challenging part was understanding how the ready queue works. I found it confusing at first to understand when a process should return to the queue. Some processes finish in one turn, while others need more time. I had to understand how the time quantum affects each process. I also needed to understand when the last process runs to completion. After reviewing the code, the scheduling logic became clearer to me.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +253,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I overcame the challenges by reading the code carefully, one part at a time. I focused on understanding the Process class and the main() method first. Then, I followed how processes enter and leave the ready queue. I ran the program and observed the output to understand what was happening. I also reviewed the waiting time and turnaround time calculations. This helped me understand the program and its results better.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +261,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Multithreading is useful in many applications that we use every day. For example, a music player can play music while the user searches for another song. A web browser can load a page while downloading files. In games, different threads can help manage tasks such as game logic and background operations. Mobile applications can use background threads to load data without freezing the screen. My project helped me understand how threads can be used to manage different tasks. These concepts are useful when developing applications that need to remain responsive.]
 
 ### Optional: What would you like to learn more about?
 
@@ -360,13 +360,13 @@ Example from my output:
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1. The difference between a simulated process and a real Java thread.
+2. How Round-Robin uses a time quantum and ready queue to schedule processes.
+3. How start(), sleep(), and join() affect thread execution.
 
 **Concepts I need to study more:**
-1.
-2.
+1. The different states in the Java thread lifecycle.
+2. How context switches work in real operating systems.
 
 ---
 
